@@ -61,9 +61,9 @@ def main():
                 threshold_increment = int(
                     input("Enter a threshold increment value (1 recommended): ")
                 )
-                if 0 <= threshold_increment <= 255:
+                if 1 <= threshold_increment <= 255:
                     break
-                print("Threshold increment must be between 0 and 255.")
+                print("Threshold increment must be between 1 and 255.")
             except ValueError:
                 print("Invalid input. Please enter an integer.")
 
