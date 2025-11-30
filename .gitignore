@@ -48,7 +48,6 @@ wheels/
 
 # Project-specific directories
 output/
-images/
 
 # Image files
 *.jpg
