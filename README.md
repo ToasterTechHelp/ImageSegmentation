@@ -29,7 +29,7 @@ The implementation follows the standard **Otsu's method definition and pseudocod
 
 - **Algorithm**: Brute-force search testing each potential threshold value from 0 to G_max (255), computing class probabilities c_I(u) and class means μᵢ(u) for each threshold, then selecting the threshold that maximizes σ²_b.
 
-**Note**: More detailed pseudo-code can be found in the [project report](./docs/report.pdf) (see `/docs`).
+**Note**: More detailed pseudo-code can be found in the [project report](./docs/project_report.pdf) (see `/docs`).
 
 ---
 
@@ -83,7 +83,7 @@ poetry run python -m src.pa5.main
 - The algorithm automatically finds the optimal threshold by maximizing the between-class variance σ²_b.
 - **Manual thresholding** is useful for images where you have specific details in mind you'd like to keep.
 
-Example results and analysis are included in the [project report](./docs/report.pdf) (see `/docs`).
+Example results and analysis are included in the [project report](./docs/project_report.pdf) (see `/docs`).
 
 ---
 
